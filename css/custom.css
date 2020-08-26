@@ -1,47 +1,52 @@
 .instagram {
-            text-align: center;
-            width: 45px;
-            margin: 0 auto;
-            margin-top: -6rem;
-        }
+    text-align: center;
+    width: 45px;
+    margin: 0 auto;
+    margin-top: -6rem;
+}
+
 
 /*whatsapp flotante */
 
-  
-  .float{
-  position:fixed;
-  width:205px;
-  height:40px;
-  bottom:13px;
-  float: left;
-  margin-left: 10px;
-  background-color:#67b868;
-  color:#FFF;
-  text-align:center;
-  font-size:18px;
-  /*box-shadow: 2px 2px 3px #999;*/
-  z-index:100;
+.float {
+    position: fixed;
+    width: 205px;
+    height: 40px;
+    bottom: 13px;
+    float: left;
+    margin-left: 10px;
+    background-color: #67b868;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    /*box-shadow: 2px 2px 3px #999;*/
+    z-index: 100;
 }
 
-.my-float{
-  margin-top:16px;
+.my-float {
+    margin-top: 16px;
 }
 
-/*fin whatsapp flotante*/ 
+
+/*fin whatsapp flotante*/
 
 @media (max-width: 576px) {
-    .float{
-  position:fixed;
-  width:205px;
-  height:40px;
-  bottom:15px;
-  float: left;
-  background-color:#67b868;
-  color:#FFF;
-  text-align:center;
-  font-size:17px;
-  margin-left: 10px;
-  /*box-shadow: 2px 2px 3px #999;*/
-  z-index:100;
+    .float {
+        position: fixed;
+        width: 205px;
+        height: 40px;
+        bottom: 15px;
+        float: left;
+        background-color: #67b868;
+        color: #FFF;
+        text-align: center;
+        font-size: 17px;
+        margin-left: 10px;
+        /*box-shadow: 2px 2px 3px #999;*/
+        z-index: 100;
+    }
 }
+
+.portada {
+    padding-top: 3rem;
 }
