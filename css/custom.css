@@ -1,8 +1,38 @@
+/* Rotación */			
+.rotate{
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+
+    overflow:hidden;
+
+}  
+ 
+
+/* Transformación al pasar el ratón por encima */ 
+.rotate:hover  
+{
+
+    transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+
+}
+
 .instagram {
     text-align: center;
     width: 45px;
     margin: 0 auto;
     margin-top: -6rem;
+ 
 }
 
 
@@ -50,3 +80,5 @@
 .portada {
     padding-top: 3rem;
 }
+
+
